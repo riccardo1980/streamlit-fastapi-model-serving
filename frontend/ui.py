@@ -7,7 +7,7 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 import streamlit as st
 
 # interact with FastAPI endpoint
-backend = "http://fastapi:8000/segmentation"
+backend = "http://backend:8000/segmentation"
 
 
 def process(image, server_url: str):
